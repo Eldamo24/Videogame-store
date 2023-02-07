@@ -30,20 +30,30 @@ ul li a{
 
 main section{
     float: left;
+    margin-bottom: 20px;
 }
 
 #categories{
-    background-color: red;
+    background-color: rgba(235, 235, 235, 0.555);
     width: 20%;
     height: 500px;
     color: white;
 }
 
 #games{
-    background-color: blue;
+    background-color: rgba(230, 230, 230, 0.925);
     width: 80%;
     height: 500px;
 }
 section h3{
     text-align: center;
+}
+
+.footer{
+    color: grey;
+    margin-top: 10px;
+}
+
+main section p{
+    padding: 5px 5px 5px 5px;
 }
