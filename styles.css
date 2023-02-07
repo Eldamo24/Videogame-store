@@ -5,7 +5,7 @@ body{
 .header{
     width: 100%;
     height: 200px;
-    background: url('gamesImage.jpg');    
+    background: url('gamesImage.jpg');
     background-repeat: no-repeat;
     background-size: 100% 200px;
     text-align: center;
