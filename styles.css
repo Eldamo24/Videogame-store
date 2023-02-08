@@ -1,3 +1,5 @@
+/* base styles */
+
 body{
     background-color: black;
 }
@@ -28,6 +30,10 @@ ul li a{
     text-decoration: none;
 }
 
+/* end of base styles */
+
+/* Home styles */
+
 main section{
     float: left;
     margin-bottom: 20px;
@@ -49,11 +55,40 @@ section h3{
     text-align: center;
 }
 
+main section p{
+    padding: 5px 5px 5px 5px;
+}
+
+/* End of home styles */
+
+/* footer styles */
+
 .footer{
     color: grey;
     margin-top: 10px;
 }
 
-main section p{
-    padding: 5px 5px 5px 5px;
+/* End of footer styles */
+
+/* form styles */
+
+#form{
+    background-color: rgba(230, 230, 230, 0.925);
+    width: 100%;
+    height: 500px;
+    text-align: center;
 }
+
+#form fieldset{
+    width: 20%;
+    margin: auto; 
+    background-color: white;   
+}
+
+.fields{
+    display: inline-block;
+    margin: 5px 0 5px 0;
+    
+}
+
+/* End of form styles */

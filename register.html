@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Nero's store</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>Videogames store</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Games</a></li>
+                <li><a href="">About us</a></li>
+                <li><a href="">contact</a></li>
+                <li><a href="">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+        </nav>
+    </header>    
+    <main>
+        <section id="form">
+            <h2>Register form</h2>
+            <form action="" method="post">
+                <fieldset>
+                    <legend>Personal information</legend>
+                    <div class="fields">
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" required>
+                    </div>
+                    <div class="fields">
+                        <label for="lastName">Last name:</label>
+                        <input type="text" name="lastName" required>
+                    </div>
+                    <div class="fields">
+                        <label for="age">Age:</label>
+                        <input type="number" name="age" required>
+                    </div>
+                    <div class="fields">
+                        <label for="sex">Sex:</label>
+                        <select name="sex" id="sex">
+                            <option value="male">Male</option>
+                            <option value="Woman">Woman</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="fields">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div class="fields">
+                        <label for="password">Password:</label>
+                        <input type="password" name="password" required>
+                    </div>
+                    <div class="fields">
+                        <input type="submit" value="Send">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p class="footer">All rights reserved</p>
+        <p class="footer">Author: Lobos Damian</p>
+    </footer>
+</body>
+</html>
